@@ -1,5 +1,15 @@
 # Referências
 
+## 02-recursos-da-camera
+
+### Configuração de permissões necessária no arquivo app.json:
+
+Adicione ao `plugins/expo-image-picker` (após "photosPermission") o recurso a seguir:
+
+`"cameraPermission": "O app acessa recursos da câmera"`
+
+---
+
 ## 01-biblioteca-de-midia
 
 **Documentação:** https://docs.expo.dev/versions/latest/sdk/imagepicker/
